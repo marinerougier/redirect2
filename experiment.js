@@ -15,8 +15,8 @@ if(!is_compatible) {
         type: "html-keyboard-response",
         stimulus:
         "<p>Unfortunately, your computer is not compatible with this experiment.</p>" +
-        "<p>Possible reasons :</p>" +
-        "<ul><li>You are using Safari</li><li>The resolution of your screen is too small (lower than 1600 x 900) </li></ul>",
+        "<p>Among the possible reasons :</p>" +
+        "<ul><li>You are using Safari</li><li>Your screen resolution is too low (lower than 1600 x 900) </li></ul>",
         choices: jsPsych.NO_KEYS
     };
 

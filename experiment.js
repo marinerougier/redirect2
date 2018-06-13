@@ -14,7 +14,7 @@ if(!is_compatible) {
     var safari_exclusion = {
         type: "html-keyboard-response",
         stimulus:
-        "<p>Unfortunately, your computer is not compatible with this experience.</p>" +
+        "<p>Unfortunately, your computer is not compatible with this experiment.</p>" +
         "<p>Possible reasons :</p>" +
         "<ul><li>You are using Safari</li><li>The resolution of your screen is too small (lower than 1600 x 900) </li></ul>",
         choices: jsPsych.NO_KEYS

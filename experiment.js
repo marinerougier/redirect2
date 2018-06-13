@@ -1,7 +1,7 @@
 // à editer : 
 var min_height = 900;
 var min_width  = 1600;
-var url        = "https://www.psytoolkit.org/cgi-bin/psy2.4.1/survey?s=7qMwp";
+var url        = "https://www.psytoolkit.org/cgi-bin/psy2.4.1/survey?s=kmdPt";
 
 // script -------------------------------------------------------------------------------------------
 var is_safari = /^((?!chrome|android).)*safari+ie/i.test(navigator.userAgent);
@@ -14,9 +14,9 @@ if(!is_compatible) {
     var safari_exclusion = {
         type: "html-keyboard-response",
         stimulus:
-        "<p>Malheureusement, votre ordinateur n'est pas compatible avec cette experience.</p>" +
-        "<p>Parmi les raisons possibles :</p>" +
-        "<ul><li>Vous utilisez Safari</li><li>La résolution de votre écran est trop petite (inférieure à 1600 x 900) </li></ul>",
+        "<p>Unfortunately, your computer is not compatible with this experience.</p>" +
+        "<p>Possible reasons :</p>" +
+        "<ul><li>You are using Safari</li><li>The resolution of your screen is too small (lower than 1600 x 900) </li></ul>",
         choices: jsPsych.NO_KEYS
     };
 
